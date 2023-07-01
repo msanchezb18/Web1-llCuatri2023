@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semana 4</title>
+  </head>
+  <body bgcolor="#FFA07A">
+    <nav>
+      <ul>
+        <li><a href="#hipervinculo">Ir a Hipervinculos</a></li>
+        <li><a href="#Ordenadas">Ir a Listas Ordenadas</a></li>
+        <li><a href="#Desordenadas">Ir a listas desordenadas</a></li>
+        <li><a href="#Definicion">Ir a listas de definicion</a></li>
+      </ul>
+    </nav>
+    <h1>listas</h1>
+    <a name="Ordenadas"></a>
+    <h2>Listas ordenadas</h2>
+    colores types A a I i 1
+    <!--Types son los formatos de tipos de listas alfanumericas que se pueden poner-->
+    <ol type="A">
+      <li>negro</li>
+      <li>rojo</li>
+      <li>verde</li>
+      <li>azul</li>
+      <li>amarillo</li>
+      <li>anaranjado</li>
+    </ol>
+    <ol type="i">
+      <li>negro</li>
+      <li>rojo</li>
+      <li>verde</li>
+      <li>azul</li>
+      <li>amarillo</li>
+      <li>anaranjado</li>
+    </ol>
+    <!--LI son opciones o elementos para listas, OL son para crear listas ordenadas, UL es para realizar listas desordenadas-->
+    <a name="Desordenadas"></a>
+    <h2>Listas desordenadas</h2>
+    <!--el type que tienen ul son para poner viñetas-->
+    Frutas type square circle disc
+    <!--estos son los tipos de viñetas que se pueden utilizar-->
+    <ul type="circle">
+      <li>manzana</li>
+      <li>sandia</li>
+      <li>mango</li>
+    </ul>
+    <a name="Definicion"></a>
+    <h2>Listas de definicion</h2>
+    <!--sirve para poner un termino y un concepto-->
+    <dl>
+      <dt>SIDA</dt>
+      <!--dentro del dt se va a encontrar el termino y la definicion-->
+      <dd>Sindrome de inmunodeficiencia</dd>
+      <dt>UTN</dt>
+      <dd>Universidad Tecnica Nacional</dd>
+    </dl>
+    ol>li*3>ul>li*2
+    <ol type="I">
+      <li>
+        Raza de perros
+        <ul>
+          <li>Pastor Aleman</li>
+          <li>Schnauzer</li>
+        </ul>
+      </li>
+      <li>
+        Raza de gatos
+        <ul>
+          <li>Angora</li>
+          <li>Egipsio</li>
+        </ul>
+      </li>
+      <li>
+        Raza Caballos
+        <ul>
+          <li>Arabe</li>
+          <li>Español</li>
+        </ul>
+      </li>
+    </ol>
+    <a name="hipervinculo"></a>
+    <!--ancla-->
+    <h1>Hipervinculos</h1>
+    <h2>interno</h2>
+    <a href="contactenos.html">Contactenos</a>
+    <!--a es la etiqueta de los hpvs internos-->
+    <h2>externo</h2>
+    <a href="https://www.ferrari.com/es-ES">Pagina Oficial Ferrari</a>
+    <a href="https://www.ferrari.com/es-ES">
+      <img
+        src="https://www.google.com/url?sa=i&url=https%3A%2F%2F1000marcas.net%2Flogo-ferrari%2F&psig=AOvVaw0r2rv_0zo9USOxg0mZEFFj&ust=1686444901006000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLCH5vq-t_8CFQAAAAAdAAAAABAE"
+        alt="imagen de ferrari"
+        width="100px"
+        height="100px"
+      />
+    </a>
+    <h3>anclas</h3>
+
+    <h2>VIDEO</h2>
+    <video width="250px" height="250px">
+      <source src="https://youtu.be/ygTZZpVkmKg" />
+    </video>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/qyOW2ietK3A"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+
+    <h1>Tablas</h1>
+    <table border="1" width="200px">
+      <caption>
+        Titulo de la tabla
+      </caption>
+      <tr>
+        <th>COLUMNA 1</th>
+        <th>COLUMNA 2</th>
+      </tr>
+      <tr>
+        <!--filas-->
+        <td>R1 C1</td>
+        <!--columnas-->
+        <td>R1 C2</td>
+      </tr>
+      <tr>
+        <td>R2 C1</td>
+        <td>R2 C2</td>
+      </tr>
+      <tr>
+        <td>R3 C1</td>
+        <td>RE C2</td>
+      </tr>
+    </table>
+
+    <table border="1" width="300px" bgcolor="#F08080">
+      <caption>
+        tabla irregular
+      </caption>
+      <tr bgcolor="#CD5C5C">
+        <td colspan="3">alfa</td>
+        <!--colspan: abarcar coloumnas-->
+        <td>bravo</td>
+        <td rowspan="2">charlie</td>
+        <!--rowspan: abarca filas-->
+      </tr>
+      <tr>
+        <td bgcolor="#CD5C5C">delta</td>
+        <td>echo</td>
+        <td>foxtrot</td>
+        <td>golf</td>
+      </tr>
+      <tr>
+        <td bgcolor="#CD5C5C">hotel</td>
+        <td colspan="3" rowspan="2">india</td>
+        <td bgcolor="#CD5C5C">juliet</td>
+      </tr>
+      <tr>
+        <td bgcolor="#CD5C5C">kilo</td>
+        <td bgcolor="#CD5C5C">lima</td>
+      </tr>
+      <tr bgcolor="#CD5C5C">
+        <td>mike</td>
+        <td>november</td>
+        <td>oscar</td>
+        <td>papa</td>
+        <td>quebec</td>
+      </tr>
+    </table>
+  </body>
+</html>
