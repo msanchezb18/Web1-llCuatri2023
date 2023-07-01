@@ -1,0 +1,22 @@
+.div1 {
+  width: 200px;
+  width: 20%;
+  height: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: aqua;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.div2 {
+  width: 200px;
+  width: 74%;
+  height: 200px;
+  background-color: blue;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid black;
+}

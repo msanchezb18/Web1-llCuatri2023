@@ -1,0 +1,25 @@
+SEMANA 5 WEB
+
+modelo de cajas
+tiene dos tipos de modelo en block e inline
+si un objeto esta en html y se pone uno abajo del otro su comportamiento es en block
+las etiquetas spam tienen comportamiento en linea
+un parrafo su comportamiento es en block 
+entender concepto de caja, entender su comportamiento, entender css, entender herencia, entender la cascadas para saber como se comportan los objetos dentro de html
+padding, margen borde de la caja y su alrededor, background image, background color
+las cajas tienen un ancho y un alto
+padding entre el contenido y el borde de la caja
+borde los podemos dar ancho, estilo y color 
+
+hay tres tipos para agregar css a nuesttros proyectos
+
+una regla css esta compuesta por un selector y un puerto
+
+un selector es un elemento de html al cual le voy a aplicar la regla o el formato, hay cuatro tipos de selectores
+1.* univeral(a todo mundo)
+2.etiqueta
+3 el punto es clases <table class="tabla"
+4. id #
+
+
+especifisidad, es que tan especifico soy con mis reglas

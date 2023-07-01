@@ -1,0 +1,39 @@
+.div1,.div2,.div3,.div4{
+    
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+/* static se asigna por defecto */
+.div1{
+    background-color: #883e3e;
+    
+    
+
+}
+/* relative posiciona a partir de la posicion del objeto */
+.div2{
+    background-color: #3e884a;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    
+}
+/* absolute possiciona a partir de la esquina superior izquierda */
+.div3{
+    background-color: #883e82;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+/* fixed se comporta igual que el absolute en dicha posicion pero se mantiene su posicion en la pantalla */
+.div4{
+    background-color: #2c5372;
+    position: fixed;
+    top: 550px;
+    left: 500px;
+
+}
+/* z-index x en donde x es un numero entero se utiliza para dar la posicion encima una de otra */
+/* !Important se utiliza para dar prioridad ante todo a un atributo */
