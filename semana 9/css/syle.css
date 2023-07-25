@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(to right, #20f051 50%, #cccaca 50%);
+}
+
+.shadow-sm {
+  position: absolute;
+  left: 35%;
+  top: 20%;
+  bottom: -20%;
+  width: 30%;
+  height: 70%;
+  border-radius: 30px;
+}
+
+.imagen {
+  position: relative;
+  left: -20%;
+}
+
+.fs-2 {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.btn {
+  background-color: #20f051;
+  border-radius: 30px;
+}
+.form-control {
+  border-radius: 30px;
+}
