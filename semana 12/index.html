@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS 2</title>
+  </head>
+  <body bgcolor="#F0518E">
+    <div>
+      <div class="titulo">JS</div>
+      <button onclick="cambiarColor()">Cambiar Color</button>
+    </div>
+    <form onsubmit="return validar()" method="post">
+      <label for="nombre">nombre:</label>
+      <input type="text" name="nombre" id="nombre" />
+      <label for="edad">EDAD:</label>
+      <input type="text" name="edad" id="edad" />
+      <label for="seleccionar">Seleccione</label>
+      <select name="opciones" id="opciones">
+        <option value="opciones">rosado</option>
+        <option value="opciones">morado</option>
+        <option value="opciones">azul</option>
+      </select>
+      <label for="correo">Correo</label>
+      <input type="email" id="correo" />
+      <label for="dia">dia:</label>
+      <input type="text" name="dia" id="dia" />
+      <label for="mes">mes:</label>
+      <input type="text" name="mes" id="mes" />
+      <label for="anho">año:</label>
+      <input type="text" name="anho" id="anho" />
+      <label for="ceddula">cedula:</label>
+      <input type="text" name="cedula" id="cedula" />
+      <label for="telefono">telefono:</label>
+      <input type="number" name="telefono" id="telefono" />
+      <label for="elemento">marque</label>
+      <input type="checkbox" name="elemento" id="elemento" />
+      <label for="radio">presione</label>
+      <input type="radio" name="radio" id="radio" />
+
+      <!--<label for="valor">Valor:</label>
+      <input type="text" name="Valor" id="Valor" />-->
+      <input type="submit" value="Presionar" />
+    </form>
+    <!--<button onclick="EnviarMensaje( 'Hola mundo', 15)">mensaje</button>-->
+
+    <!--<button value="5" id="5">5</button>-->
+    <script src="js/index.js"></script>
+  </body>
+</html>
