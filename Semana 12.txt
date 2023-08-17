@@ -1,0 +1,10 @@
+Semana 12
+
+el metodo get nos sirve para enviar los datos por medio de la URL
+el metodo post nos lo enviar sin poner el texto visible en la URL para mantener los datos seguros por este motivo cuando estemos creando un programa debemos de tomar en cuenta si podemos compartir o dejar ver la informacion o la necesitamos privada
+
+onsubmit envia toda la informacion del formulario, VALIDA LOS CONTROLES Y ENVIARLOS, un boton comun solo envia la accion
+
+el action 
+
+en querySelector tengo que identificar si es un class le agrego un "." si es in id le agrego un "#"
